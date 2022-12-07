@@ -12,14 +12,14 @@ namespace lab2ex2
             Console.WriteLine("Insert a number:");
             
             ulong n = ulong.Parse(Console.ReadLine());
-            ulong f = 1;
+            ulong factorial = 1;
 
             while (n > 0)
             {
-                f = f * n;
+                factorial = factorial * n;
                 n = n - 1;
             }
-            Console.WriteLine("You number is: " + f);
+            Console.WriteLine("You number is: " + factorial);
         }
     }
 }
